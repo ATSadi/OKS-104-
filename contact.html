@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact OKS — Organisation of Kuet Sports (KUET)."
+    />
+    <title>OKS | Contact</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a class="logo" href="index.html">OKS</a>
+          <p class="tagline">Organisation of Kuet Sports</p>
+        </div>
+
+        <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav-toggle-btn" for="nav-toggle">
+          <span class="bars" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <span>Menu</span>
+        </label>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="committee.html">Committee</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="page-title">Contact</h1>
+          <p class="page-subtitle">
+            This is a simple HTML form for the lab (no backend yet). You can use
+            it later for volunteer registration or event participation.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container stack">
+          <h2>Message / registration form</h2>
+          <form class="form" action="#" method="post">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+
+            <div class="field">
+              <label for="dept">Department</label>
+              <select id="dept" name="dept" required>
+                <option value="" selected disabled>Select department</option>
+                <option>CE</option>
+                <option>CSE</option>
+                <option>EEE</option>
+                <option>ME</option>
+                <option>ETE</option>
+                <option>IPE</option>
+                <option>LE</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="interest">Interested in</label>
+              <select id="interest" name="interest" required>
+                <option value="" selected disabled>Select option</option>
+                <option>Outdoor tournaments</option>
+                <option>Indoor tournament</option>
+                <option>Volunteering</option>
+                <option>General query</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write your message..."
+                required
+              ></textarea>
+            </div>
+
+            <div>
+              <button class="btn" type="submit">Submit</button>
+              <p class="help" style="margin-top: 0.6rem">
+                Note: This form is for Lab 2 UI only (no database/server).
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section contact-strip">
+        <div class="container stack">
+          <h2>Club info (demo)</h2>
+          <p class="help">
+            Replace these with your real club contact details later.
+          </p>
+          <div class="cards">
+            <article class="card">
+              <h3>Campus</h3>
+              <p>Khulna University of Engineering &amp; Technology (KUET)</p>
+            </article>
+            <article class="card">
+              <h3>Typical activities</h3>
+              <p>Event planning, scheduling, volunteer coordination, venues.</p>
+            </article>
+            <article class="card">
+              <h3>Next</h3>
+              <p>
+                In next labs, we can add a gallery, notices, and proper event
+                details pages.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 OKS — KUET. Lab project (Web Dev).</p>
+      </div>
+    </footer>
+  </body>
+</html>
+

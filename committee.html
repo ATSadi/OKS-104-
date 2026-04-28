@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="OKS committee — a simple committee/notice page for the lab."
+    />
+    <title>OKS | Committee</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <a class="logo" href="index.html">OKS</a>
+          <p class="tagline">Organisation of Kuet Sports</p>
+        </div>
+
+        <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav-toggle-btn" for="nav-toggle">
+          <span class="bars" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <span>Menu</span>
+        </label>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="committee.html" aria-current="page">Committee</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="page-title">Committee</h1>
+          <p class="page-subtitle">
+            A simple committee layout and a small notice board section (HTML/CSS
+            only).
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container stack">
+          <h2>Core members (demo)</h2>
+          <div class="cards">
+            <article class="card person">
+              <div class="avatar" aria-hidden="true">P</div>
+              <div>
+                <h3>President</h3>
+                <p class="help">Name: (to be added)</p>
+              </div>
+            </article>
+            <article class="card person">
+              <div class="avatar" aria-hidden="true">S</div>
+              <div>
+                <h3>Secretary</h3>
+                <p class="help">Name: (to be added)</p>
+              </div>
+            </article>
+            <article class="card person">
+              <div class="avatar" aria-hidden="true">T</div>
+              <div>
+                <h3>Treasurer</h3>
+                <p class="help">Name: (to be added)</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-strip">
+        <div class="container stack">
+          <h2>Notice board</h2>
+          <ul class="notice-list">
+            <li class="notice">
+              <span class="badge">New</span>
+              <div>
+                <p class="notice-title">Volunteer registration (demo)</p>
+                <p class="help">Use the Contact form to submit your interest.</p>
+              </div>
+            </li>
+            <li class="notice">
+              <span class="badge badge--info">Info</span>
+              <div>
+                <p class="notice-title">Indoor tournament practice slots</p>
+                <p class="help">Schedule will be updated on the Events page.</p>
+              </div>
+            </li>
+            <li class="notice">
+              <span class="badge badge--warn">Update</span>
+              <div>
+                <p class="notice-title">Inter-dept team selection</p>
+                <p class="help">Details will be added later in Lab 4/5.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 OKS — KUET. Lab project (Web Dev).</p>
+      </div>
+    </footer>
+  </body>
+</html>
+

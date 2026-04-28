@@ -13,8 +13,30 @@
   <body>
     <header class="site-header">
       <div class="container header-inner">
-        <a class="logo" href="index.html">OKS</a>
-        <p class="tagline">Organisation of Kuet Sports</p>
+        <div class="brand">
+          <a class="logo" href="index.html">OKS</a>
+          <p class="tagline">Organisation of Kuet Sports</p>
+        </div>
+
+        <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav-toggle-btn" for="nav-toggle">
+          <span class="bars" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <span>Menu</span>
+        </label>
+
+        <nav class="nav" aria-label="Primary navigation">
+          <ul class="nav-links">
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="committee.html">Committee</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -71,12 +93,29 @@
         </div>
       </section>
 
+      <section class="section">
+        <div class="container">
+          <h2>Quick links</h2>
+          <p class="lead" style="max-width: 65ch">
+            Explore a few more pages added for the next lab phase: a simple
+            gallery layout and a committee section.
+          </p>
+          <p style="margin-top: 1rem; display: flex; gap: 0.75rem; flex-wrap: wrap">
+            <a class="btn" href="gallery.html">Open gallery</a>
+            <a class="btn" href="committee.html">See committee</a>
+          </p>
+        </div>
+      </section>
+
       <section class="section contact-strip">
         <div class="container">
           <h2>Lab project</h2>
           <p>
             This site is being built step by step for the Web Development lab
             course. More pages and features will be added in upcoming labs.
+          </p>
+          <p style="margin-top: 1rem">
+            <a class="btn" href="events.html">View event list</a>
           </p>
         </div>
       </section>
